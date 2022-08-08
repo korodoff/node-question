@@ -87,7 +87,35 @@ CORS (Cross-Origin Resource Sharing) is a mechanism by which data or any other r
 
 function httpGetAction(urlLink) { var xmlHttp = new XMLHttpRequest(); xmlHttp.open( "GET", urlLink, false ); xmlHttp.send(); return xmlHttp.responseText; }
 
-npm i CORS
+npm i CORS\
+
+
+#Explain min 5 status codes gets used in Backend development
+
+102 PROCESSING Processing 200 OK OK
+400 BAD_REQUEST Bad Request
+401 UNAUTHORIZED Unauthorized
+402 PAYMENT_REQUIRED Payment Required
+403 FORBIDDEN Forbidden
+404 NOT_FOUND Not Found
+500 INTERNAL_SERVER_ERROR Internal Server Error
+503 - Service Unavailable
+
+Difference between HTTP and HTTPS
+
+http://	https://
+Functions at the Application Layer	This runs at the Transport layer
+Lacks security and so is vulnerable to hackers	Offer the SSL or TLS Digital Certificate to protect the communication between the server and client
+Operates by default on port 80	Operates by default on port 443
+Data exchanged is in plain text, and it is not scrambled before sending	Data exchange happens in cipher or encrypted text and data is scrambled before sending
+HTTP is fast compared to HTTPS	Computation power is consumed by HTTPS to encrypt the communication channel, so it is slow
+Does not help to improve the search rankings	It helps to improve search rankings
+
+What are JWT tokens?
+JSON web token (JWT), pronounced "jot", is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. Again, JWT is a standard, meaning that all JWTs are tokens, but not all tokens are JWTs.
+ex:-instagram
+when we loggin somewhere , they provide us a unique token.which helps us to access through it
+tocken is provided only when the registered data and login data are matching.
 
 
 
