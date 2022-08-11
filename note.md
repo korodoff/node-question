@@ -115,7 +115,7 @@ What are JWT tokens?
 JSON web token (JWT), pronounced "jot", is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. Again, JWT is a standard, meaning that all JWTs are tokens, but not all tokens are JWTs.
 ex:-instagram
 when we loggin somewhere , they provide us a unique token.which helps us to access through it
-tocken is provided only when the registered data and login data are matching.
+tocken is provided only when the registered data and login data are matching..
 
 
 
